@@ -94,8 +94,8 @@ async function loadResourcesAsync() {
   await Promise.all([
     Font.loadAsync({
       "roboto-regular": require("./src/assets/fonts/roboto-regular.ttf"),
-      "roboto-700": require("./src/assets/fonts/roboto-700.ttf"),
       "alef-700": require("./src/assets/fonts/alef-700.ttf"),
+      "roboto-700": require("./src/assets/fonts/roboto-700.ttf"),
       "roboto-900": require("./src/assets/fonts/roboto-900.ttf"),
       "arial-regular": require("./src/assets/fonts/arial-regular.ttf")
     })
